@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hqdKWBA2zU9X73Nhk3WEkd0dH5jZVlWn7Sl7OJg4CTc=",
+  "Source": "FlightBoard.Api",
+  "BasePath": "_content/FlightBoard.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

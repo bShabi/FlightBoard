@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\flightBoard\\Server\\FlightBoard.Api\\FlightBoard.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\flightBoard\\Server\\FlightBoard.Api\\FlightBoard.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\flightBoard\\Server\\FlightBoard.Api\\FlightBoard.Api.csproj",
+        "projectName": "FlightBoard.Api",
+        "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Api\\FlightBoard.Api.csproj",
+        "packagesPath": "C:\\Users\\bens5\\.nuget\\packages\\",
+        "outputPath": "C:\\flightBoard\\Server\\FlightBoard.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bens5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj": {
+                "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj"
+              },
+              "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj": {
+                "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj"
+              },
+              "C:\\flightBoard\\Server\\FlightBoard.Provider\\FlightBoard.Provider.csproj": {
+                "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Provider\\FlightBoard.Provider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Pose": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj",
+        "projectName": "FlightBoard.Bl",
+        "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj": {
+                "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj",
+        "projectName": "FlightBoard.Models",
+        "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\flightBoard\\Server\\FlightBoard.Provider\\FlightBoard.Provider.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\flightBoard\\Server\\FlightBoard.Provider\\FlightBoard.Provider.csproj",
+        "projectName": "FlightBoard.Provider",
+        "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Provider\\FlightBoard.Provider.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj": {
+                "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Bl\\FlightBoard.Bl.csproj"
+              },
+              "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj": {
+                "projectPath": "C:\\flightBoard\\Server\\FlightBoard.Models\\FlightBoard.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
