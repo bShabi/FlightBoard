@@ -1,0 +1,36 @@
+# Project Description
+The Flight Board Management System is a real-time application designed to manage and display flights in a live flight board.
+It allows administrators to add, edit, and delete flights, while automatically calculating and updating each flight’s status based on its scheduled departure time.
+The system uses SignalR to deliver instant updates to all connected clients without the need for page refresh or polling.
+
+Key Features:
+Add / Edit / Delete flights with full form validation
+
+Dynamic flight status calculation (Scheduled, Boarding, Departed, Landed) based on departure time
+
+Real-time synchronization between all users via SignalR
+
+Search and filter flights by multiple criteria
+
+Animated table row updates for better user experience (Framer Motion)
+
+Backend: ASP.NET Core 6 Web API + SQLite
+## Run via CLI
+```bash
+cd server && cd FlightBoard.Api
+dotnet run
+```
+
+Frontend: React + TypeScript + Material UI
+## Run via CLI
+```bash
+cd flights-client
+npm install
+npm run start
+```
+📂 Database Location
+The SQLite database file is stored at:
+
+pgsql
+
+flightBoard\Server\FlightBoard.Api\bin\Debug\net6.0\database
